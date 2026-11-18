@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/regenera-authenticity-seal.svg" alt="Regenera 32B — selo técnico de autenticidade e autoria declarada" width="100%">
+<img src="./assets/regenera-32b-technical-identity.svg" alt="Regenera 32B — selo técnico de autenticidade e autoria declarada" width="100%">
 
 <br>
 
@@ -8,7 +8,7 @@
 
 ### Modelo de Linguagem Autoral · 32.118.447.104 parâmetros
 
-[![AUTHENTICITY](https://img.shields.io/badge/AUTHENTICITY-AUTHORSHIP%20DECLARED-0A0A0A?style=for-the-badge&labelColor=111827&color=00C2FF)](./assets/regenera-authenticity-seal.svg)
+[![AUTHENTICITY](https://img.shields.io/badge/AUTHENTICITY-AUTHORSHIP%20DECLARED-0A0A0A?style=for-the-badge&labelColor=111827&color=00C2FF)](./assets/regenera-32b-technical-identity.svg)
 [![FROM SCRATCH](https://img.shields.io/badge/TRAINING-FROM%20SCRATCH-0A0A0A?style=for-the-badge&labelColor=111827&color=7C4DFF)](#autoria-e-desenvolvimento)
 [![PARAMETERS](https://img.shields.io/badge/PARAMETERS-32.118B-0A0A0A?style=for-the-badge&labelColor=111827&color=00C896)](#especificações-técnicas)
 [![CONTEXT](https://img.shields.io/badge/CONTEXT-65%2C536%20TOKENS-0A0A0A?style=for-the-badge&labelColor=111827&color=2563EB)](#especificações-técnicas)
