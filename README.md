@@ -14,7 +14,7 @@
 [![CONTEXT](https://img.shields.io/badge/CONTEXT-65%2C536%20TOKENS-0A0A0A?style=for-the-badge&labelColor=111827&color=2563EB)](#especificações-técnicas)
 [![WEIGHTS](https://img.shields.io/badge/WEIGHTS-SAFETENSORS%20%C2%B7%207%20SHARDS-0A0A0A?style=for-the-badge&labelColor=111827&color=5B21B6)](#arquivos-do-modelo)
 
-**Autoria e desenvolvimento integral · Paulo Ricardo de Leão**  
+**Autor & Desenvolvedor · Paulo Ricardo de Leão**  ·  **CEO & Co-Founder · Raphaela Cerveski**  
 **Concepção institucional · Paulo Ricardo de Leão e Raphaela Cerveski**  
 **Organização · Regenera Corporate**
 
@@ -167,6 +167,7 @@ WEIGHTS      SafeTensors · 7 shards
 QUANTIZATION 8-bit affine · group size 64
 CONTEXT      65,536 tokens
 AUTHOR       Paulo Ricardo de Leão
+CEO/COFOUNDER Raphaela Cerveski
 CONCEPTION   Paulo Ricardo de Leão · Raphaela Cerveski
 ORG          Regenera Corporate
 ```
