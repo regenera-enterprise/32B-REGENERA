@@ -34,6 +34,8 @@ These identifiers were produced from the actual local weight files and were also
 
 The local evidence package generated for this release includes:
 
+- [`evidencias/VERIFICACAO-LOCAL-CRIPTOGRAFICA-2026-11-18.md`](../evidencias/VERIFICACAO-LOCAL-CRIPTOGRAFICA-2026-11-18.md) — consolidated record of the local SHA-256 and Ed25519 verification run
+
 - `evidencias/PESOS-REGENERA-32B-SHA256.txt`
 - `evidencias/PESOS-REGENERA-32B-MANIFEST.json`
 - `evidencias/MANIFEST-SHA256.txt`
