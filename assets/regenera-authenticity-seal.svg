@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2172" height="724" viewBox="0 0 2172 724" role="img" aria-labelledby="title desc">
-  <title id="title">Regenera 32B Technical Identity</title>
-  <desc id="desc">Regenera 32B technical identity banner.</desc>
+  <title id="title">Regenera 32B — From-Scratch Language Model</title>
+  <desc id="desc">Regenera 32B developer banner highlighting engineering, training, optimization and model scale.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#030811"/>
@@ -14,14 +14,13 @@
       <stop offset="76%" stop-color="#2aa9ff"/>
       <stop offset="100%" stop-color="#28f0b1"/>
     </linearGradient>
-    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="terminal" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#13e9ff"/>
-      <stop offset="35%" stop-color="#27c9ff"/>
-      <stop offset="68%" stop-color="#704eff"/>
+      <stop offset="55%" stop-color="#704eff"/>
       <stop offset="100%" stop-color="#26f19d"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -32,25 +31,42 @@
   <rect width="2172" height="724" fill="url(#bg)"/>
   <rect x="44" y="61" width="2084" height="602" rx="34" fill="none" stroke="url(#frame)" stroke-width="5"/>
 
-  <g transform="translate(108 145)" filter="url(#glow)">
-    <path d="M145 0 L274 72 L274 230 C274 337 214 414 145 464 C76 414 16 337 16 230 L16 72 Z"
-      fill="#06101a" stroke="url(#shield)" stroke-width="12"/>
-    <circle cx="145" cy="220" r="98" fill="none" stroke="#3d4bc1" stroke-width="4" stroke-dasharray="6 16" opacity="0.75"/>
-    <path d="M93 217 L131 257 L205 166" fill="none" stroke="#20f2b1" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(96 156)" filter="url(#glow)">
+    <rect x="0" y="0" width="306" height="360" rx="26" fill="#06101a" stroke="url(#terminal)" stroke-width="7"/>
+    <rect x="0" y="0" width="306" height="60" rx="26" fill="#0a1422"/>
+    <circle cx="34" cy="30" r="8" fill="#13e9ff"/>
+    <circle cx="61" cy="30" r="8" fill="#7657ff"/>
+    <circle cx="88" cy="30" r="8" fill="#26f19d"/>
+    <text x="28" y="116" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="28" font-weight="700" fill="#20f2b1">&gt; model</text>
+    <text x="28" y="158" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="25" fill="#e9f3ff">REGENERA-32B</text>
+    <text x="28" y="211" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="28" font-weight="700" fill="#13e9ff">&gt; init</text>
+    <text x="28" y="253" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="25" fill="#e9f3ff">RANDOM</text>
+    <text x="28" y="306" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="28" font-weight="700" fill="#8f72ff">&gt; build</text>
+    <text x="28" y="343" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="23" fill="#e9f3ff">FROM SCRATCH_</text>
   </g>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="454" y="178" font-size="44" font-weight="650" letter-spacing="13" fill="#8ea1cf">REGENERA TECHNICAL IDENTITY</text>
-    <text x="454" y="292" font-size="104" font-weight="800" letter-spacing="1" fill="#f6f7fb">REGENERA 32B</text>
-    <text x="454" y="376" font-size="48" font-weight="800" letter-spacing="6" fill="#10dff7">AUTHENTICITY · AUTHORSHIP DECLARED</text>
-    <text x="454" y="455" font-size="40" font-weight="500" fill="#f0f2f6">32,118,447,104 parameters · from-scratch training declaration · 8-bit distribution</text>
-    <text x="454" y="537" font-size="30" font-weight="500" fill="#93a3d0">Author &amp; developer: Paulo Ricardo de Leão · CEO &amp; Co-Founder: Raphaela Cerveski · Organization: Regenera Corporate</text>
+    <text x="454" y="157" font-size="38" font-weight="700" letter-spacing="11" fill="#8ea1cf">REGENERA · FROM-SCRATCH LANGUAGE MODEL</text>
+    <text x="454" y="276" font-size="112" font-weight="850" letter-spacing="1" fill="#f6f7fb">REGENERA 32B</text>
+
+    <text x="454" y="367" font-size="46" font-weight="850" letter-spacing="4" fill="#10dff7">ENGINEERED · TRAINED · OPTIMIZED · SHIPPED</text>
+
+    <text x="454" y="441" font-size="33" font-weight="620" fill="#edf4fb">32.118B PARAMETERS · 62 LAYERS · 65,536 CONTEXT · 7 SAFETENSORS SHARDS</text>
+    <text x="454" y="493" font-size="27" font-weight="500" fill="#8fa4ca">Random initialization · From-scratch training · 8-bit affine distribution</text>
+
+    <line x1="454" y1="529" x2="1924" y2="529" stroke="#183653" stroke-width="2"/>
+
+    <text x="454" y="579" font-size="28" font-weight="600" fill="#dce7f5">Author &amp; developer: Paulo Ricardo de Leão</text>
+    <text x="1030" y="579" font-size="28" font-weight="600" fill="#a993ff">· CEO &amp; Co-Founder: Raphaela Cerveski</text>
+    <text x="1544" y="579" font-size="28" font-weight="500" fill="#7f91b6">· Regenera Corporate</text>
+
+    <text x="454" y="621" font-size="21" font-weight="650" letter-spacing="5" fill="#22ddb6">BUILT AS A MODEL. DOCUMENTED AS ENGINEERING.</text>
   </g>
 
-  <g transform="translate(1835 124)">
-    <circle cx="106" cy="106" r="91" fill="none" stroke="url(#frame)" stroke-width="5"/>
-    <circle cx="106" cy="106" r="67" fill="none" stroke="#1ee0c8" stroke-width="4" stroke-dasharray="4 16"/>
-    <text x="106" y="101" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" fill="#f6f7fb">32B</text>
-    <text x="106" y="147" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2" fill="#a8b8df">ORIGINAL</text>
+  <g transform="translate(1850 118)">
+    <circle cx="102" cy="102" r="88" fill="none" stroke="url(#frame)" stroke-width="5"/>
+    <circle cx="102" cy="102" r="65" fill="none" stroke="#1ee0c8" stroke-width="4" stroke-dasharray="4 15"/>
+    <text x="102" y="98" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="850" fill="#f6f7fb">32B</text>
+    <text x="102" y="140" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#a8b8df">ORIGINAL</text>
   </g>
 </svg>
